@@ -1,0 +1,9 @@
+SELECT * FROM personel
+SELECT * FROM departman
+
+
+INSERT INTO personel(DepartmanNo, Ad, Soyad, Yas, Cinsiyet, Telefon, EPosta, Parola) VALUES(1,"Admin","Admin",18,1,"0555 655 12 99", "admin@marmelat.net", "admin")
+
+UPDATE Personel SET Cinsiyet = 2 WHERE ID=3
+
+
